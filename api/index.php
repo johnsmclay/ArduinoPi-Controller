@@ -6,7 +6,7 @@
  */
 include_once("arduino_pi.class.php");
 
-$arduinopi = new ArduinoPi(MEGA2560);
+$arduinopi = new ArduinoPi(UNO);
 
 /*****************************************************************
  * Leave this part alone, this is used for the API
